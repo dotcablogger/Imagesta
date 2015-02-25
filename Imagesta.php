@@ -25,7 +25,7 @@ License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 (GPL v3.0)
 		// define main output
 		$str    = "";
 		// get remote data
-		$result = wp_remote_get( "https://api.instagram.com/v1/users/{user-id}/media/recent/?client_id=625293aacf064085804c474e3641924f" );
+		$result = wp_remote_get( "https://api.instagram.com/v1/users/self/media/recent/?access_token=1515219736.625293a.5b650c4e9cf14c6fa70783e3b6554cd9" );
 		
 		if( is_wp_error( $result ) ) {
 			// error handling
