@@ -1,0 +1,15 @@
+{
+	"name"       : "Imagesta/ImagestaFeed",
+	"description": "Display your latest Instagram photos in your WordPress.org powered site.",
+	"type"       : "wordpress-plugin",
+	"license"    : "GPL-2.0+",
+	"authors"    : [
+		{
+			"name"    : "Dotcamom blog",
+			"homepage": "http://dotcamom.com/"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
