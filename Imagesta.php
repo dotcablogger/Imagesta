@@ -46,7 +46,7 @@ License: GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007 (GPL v3.0)
 
 			// create main string, pictures embedded in links
 			foreach ($main_data as $data) {
-				$str .= '<a target="_blank" href="http://instagram.com/'.$data['user'].'"><img src="'.$data['thumbnail'].'" alt="'.$data['user'].' pictures"></a>';
+				$str .= '<a target="_blank" href="https://instagram.com/oauth/authorize/?client_id=625293aacf064085804c474e3641924f&redirect_uri=https://instagram.com/accounts/login/&response_type=token'.'"><img src="'.$data['thumbnail'].'" alt="'.$data['user'].' pictures"></a>';
 			}
 		}
 
